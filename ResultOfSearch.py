@@ -15,7 +15,7 @@ list_of_images = []
 
 # Общее задание
 class ItemsListResult(Spider):
-    initial_urls = ['http://en.bildelsbasen.se/?link=list&ggl=s16&searchmode=1&pc[0]=119100100&page=35']
+    initial_urls = ['http://en.bildelsbasen.se/?link=list&ggl=s16&searchmode=1&pc[0]=119100100&page=1']
     base_url = 'http://en.bildelsbasen.se/'
 
     def task_initial(self, grab, task):
