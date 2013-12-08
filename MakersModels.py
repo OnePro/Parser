@@ -1,5 +1,4 @@
 # coding: utf-8
-__author__ = 'freeman'
 
 from grab.spider import Spider, Task
 from grab import Grab
