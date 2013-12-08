@@ -120,7 +120,7 @@ class Item():
             path = ''.join([self.url_id, '_', str(self.result_counter), '_', url.rsplit('/',1)[1]])
 
             # Картинка получена, можно сохранить результат.
-            #urlretrieve(url, image_catalog + path)
+            urlretrieve(url, image_catalog + path)
 
             #добавляем в список сохраненных картинок
             self.image_names.append(path)
