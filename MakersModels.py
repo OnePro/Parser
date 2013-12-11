@@ -87,7 +87,7 @@ def start_parse_makers():
 
     file = codecs.open('/home/freeman/result.txt', 'w', 'utf-8')
     for item in list_of_models:
-       file.write("{%s}\n" % ";".join(["%s=%s" % (k, v) for k, v in item.items()]))
+       file.write("%s\n" % ";".join(["%s=%s" % (k, v) for k, v in item.items()]))
     file.close()
 
 if __name__ == '__main__':
