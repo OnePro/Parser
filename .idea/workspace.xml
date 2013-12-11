@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cbbf5fce-9135-46fd-b12b-c0e0702caf56" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ResultOfSearch.py" afterPath="$PROJECT_DIR$/ResultOfSearch.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DBWorks.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Parser.iws" />
@@ -33,10 +33,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ResultOfSearch.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="ResultOfSearch.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ResultOfSearch.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="129" column="31" selection-start="5323" selection-end="5323" vertical-scroll-proportion="0.45948946" vertical-offset="1818" max-vertical-offset="3348">
+            <state line="21" column="0" selection-start="492" selection-end="492" vertical-scroll-proportion="0.0" vertical-offset="1674" max-vertical-offset="3348">
               <folding />
             </state>
           </provider>
@@ -45,7 +45,7 @@
       <file leaf-file-name="MakersModels.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MakersModels.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="20" selection-start="297" selection-end="297" vertical-scroll-proportion="0.0" vertical-offset="252" max-vertical-offset="1746">
+            <state line="0" column="4" selection-start="0" selection-end="15" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1746">
               <folding />
             </state>
           </provider>
@@ -54,7 +54,25 @@
       <file leaf-file-name="PartsParser.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PartsParser.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="78" column="29" selection-start="3174" selection-end="3174" vertical-scroll-proportion="0.0" vertical-offset="1404" max-vertical-offset="2016">
+            <state line="78" column="29" selection-start="3174" selection-end="3174" vertical-scroll-proportion="0.0" vertical-offset="1061" max-vertical-offset="2016">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DBWorks.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/DBWorks.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="8" selection-start="162" selection-end="162" vertical-scroll-proportion="0.19977802" vertical-offset="0" max-vertical-offset="901">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PyDB.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PyDB.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="2" selection-start="40" selection-end="54" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="792">
               <folding />
             </state>
           </provider>
@@ -85,6 +103,7 @@
         <option value="$PROJECT_DIR$/PartsParser.py" />
         <option value="$PROJECT_DIR$/MakersModels.py" />
         <option value="$PROJECT_DIR$/ResultOfSearch.py" />
+        <option value="$PROJECT_DIR$/DBWorks.py" />
       </list>
     </option>
   </component>
@@ -506,7 +525,11 @@
       <created>1386538094622</created>
       <updated>1386538094622</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="n">
+      <created>1386539211940</created>
+      <updated>1386539211940</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -573,13 +596,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/MakersModels.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="15" selection-start="15" selection-end="15" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1836">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PartsParser.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="78" column="29" selection-start="3174" selection-end="3174" vertical-scroll-proportion="0.0" vertical-offset="1404" max-vertical-offset="2016">
@@ -595,11 +611,6 @@
     <entry file="file:///usr/local/lib/python2.7/dist-packages/grab/base.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="233" column="0" selection-start="6995" selection-end="6995" vertical-scroll-proportion="0.0" vertical-offset="4036" max-vertical-offset="14382" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PyDB.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="22" selection-start="202" selection-end="202" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="792" />
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/py33/lib/python3.3/site-packages/grab/spider/transport/multicurl.py">
@@ -642,6 +653,13 @@
         <state line="218" column="0" selection-start="6538" selection-end="6538" vertical-scroll-proportion="0.33277026" vertical-offset="3691" max-vertical-offset="6606" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ResultOfSearch.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="0" selection-start="492" selection-end="492" vertical-scroll-proportion="0.0" vertical-offset="1404" max-vertical-offset="3348">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/PartsParser.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="78" column="29" selection-start="3174" selection-end="3174" vertical-scroll-proportion="0.0" vertical-offset="1291" max-vertical-offset="2016">
@@ -651,14 +669,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MakersModels.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="20" selection-start="297" selection-end="297" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1836">
+        <state line="0" column="4" selection-start="0" selection-end="15" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1746">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ResultOfSearch.py">
+    <entry file="file://$PROJECT_DIR$/PyDB.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="129" column="31" selection-start="5323" selection-end="5323" vertical-scroll-proportion="0.45948946" vertical-offset="1818" max-vertical-offset="3348">
+        <state line="3" column="2" selection-start="40" selection-end="54" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="792">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DBWorks.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="8" selection-start="162" selection-end="162" vertical-scroll-proportion="0.19977802" vertical-offset="0" max-vertical-offset="901">
           <folding />
         </state>
       </provider>
