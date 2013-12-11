@@ -19,13 +19,14 @@ class MyDB():
 def getMakers():
     objMyDB = MyDB()
     try:
-        objMyDB.cursor.execute("SELECT idMaker FROM `mydb`.`Makers`;")
+        objMyDB.cursor.execute("SELECT idMakerj FROM `mydb`.`Makers`;")
         raw_query = objMyDB.cursor.fetchall()
         maker_in_db = [ idquery[0] for idquery in raw_query]
-        objMyDB.closeDB()
         return maker_in_db
     except NameError, error_name:
         objMyDB.closeDB(msg_text=error_name)
+    finally:
+        objMyDB.closeDB()
 
 #Записываем в базу все марки
 def writeMaker(list_makers):
