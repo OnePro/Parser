@@ -6,6 +6,7 @@ import logging
 import re
 import codecs
 import ResultOfSearch
+import time
 
 
 # список словарей с ключами
@@ -85,15 +86,18 @@ def start_parse_makers():
     )
     bot.run()
 
-    file = codecs.open('/home/freeman/result.txt', 'w', 'utf-8')
-    for item in list_of_models:
-       file.write("%s\n" % ";".join(["%s=%s" % (k, v) for k, v in item.items()]))
-    file.close()
+   # file = codecs.open('/home/freeman/result.txt', 'w', 'utf-8')
+   # for item in list_of_models:
+   #    file.write("%s\n" % ";".join(["%s=%s" % (k, v) for k, v in item.items()]))
+   # file.close()
 
     import DBWorks
     DBWorks.test_write_makers_models(list_of_models)
 
 if __name__ == '__main__':
+    start = time.time()
     logging.basicConfig(level=logging.DEBUG)
     start_parse_makers()
+    end = time.time()
+    print(end-start)
 
