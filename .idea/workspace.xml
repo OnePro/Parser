@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cbbf5fce-9135-46fd-b12b-c0e0702caf56" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MakersModels.py" afterPath="$PROJECT_DIR$/MakersModels.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Parser.iws" />
@@ -575,7 +574,11 @@
       <created>1386892114235</created>
       <updated>1386892114235</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="n">
+      <created>1386892535788</created>
+      <updated>1386892535788</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
