@@ -90,6 +90,9 @@ def start_parse_makers():
        file.write("%s\n" % ";".join(["%s=%s" % (k, v) for k, v in item.items()]))
     file.close()
 
+    import DBWorks
+    DBWorks.test_write_makers_models(list_of_models)
+
 if __name__ == '__main__':
     logging.basicConfig(level=logging.DEBUG)
     start_parse_makers()

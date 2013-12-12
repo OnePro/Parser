@@ -152,7 +152,7 @@ def parse_full_URL(url):
     url_param_dict = {}
     url_params = url.split('&')
     for x in url_params:
-        if x.find('vc1') == 0: url_param_dict.update({'idMakers':x[4:7]})
+        if x.find('vc1') == 0: url_param_dict.update({'idMaker':x[4:7]})
         if x.find('vc[0]') == 0: url_param_dict.update({'idGroupModel':x[6:20]})
         if x.find('vcx') == 0: url_param_dict.update({'idModel':x[4:15]})
         if x.find('pc1') == 0: url_param_dict.update({'idPartGroup':x[4:7]})
