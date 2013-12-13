@@ -1,0 +1,132 @@
+SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0;
+SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0;
+SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='TRADITIONAL';
+
+DROP SCHEMA IF EXISTS `mydb` ;
+CREATE SCHEMA IF NOT EXISTS `mydb` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci ;
+SHOW WARNINGS;
+USE `mydb` ;
+
+-- -----------------------------------------------------
+-- Table `Makers`
+-- -----------------------------------------------------
+DROP TABLE IF EXISTS `Makers` ;
+
+SHOW WARNINGS;
+CREATE  TABLE IF NOT EXISTS `Makers` (
+  `idMaker` INT NOT NULL ,
+  `nameMaker` VARCHAR(50) NULL ,
+  PRIMARY KEY (`idMaker`) )
+ENGINE = InnoDB
+DEFAULT CHARACTER SET = utf8
+COLLATE = utf8_general_ci;
+
+SHOW WARNINGS;
+
+-- -----------------------------------------------------
+-- Table `Model`
+-- -----------------------------------------------------
+DROP TABLE IF EXISTS `Model` ;
+
+SHOW WARNINGS;
+CREATE  TABLE IF NOT EXISTS `Model` (
+  `idModel` INT NOT NULL ,
+  `nameModel` VARCHAR(45) NULL ,
+  `idMaker` INT NULL ,
+  `idGroupModel` INT NULL ,
+  `nameGroupModel` VARCHAR(45) NULL ,
+  PRIMARY KEY (`idModel`) ,
+  INDEX `fk_Model_1` (`idMaker` ASC) ,
+  INDEX `fk_Model_2` (`idGroupModel` ASC) ,
+  CONSTRAINT `fk_Model_1`
+    FOREIGN KEY (`idMaker` )
+    REFERENCES `Makers` (`idMaker` )
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION)
+ENGINE = InnoDB
+DEFAULT CHARACTER SET = utf8
+COLLATE = utf8_general_ci;
+
+SHOW WARNINGS;
+
+-- -----------------------------------------------------
+-- Table `PartGroup`
+-- -----------------------------------------------------
+DROP TABLE IF EXISTS `PartGroup` ;
+
+SHOW WARNINGS;
+CREATE  TABLE IF NOT EXISTS `PartGroup` (
+  `idPartGroup` INT NOT NULL ,
+  `PgName` VARCHAR(45) NULL ,
+  PRIMARY KEY (`idPartGroup`) ,
+  INDEX `Name` (`PgName` ASC) )
+ENGINE = InnoDB;
+
+SHOW WARNINGS;
+
+-- -----------------------------------------------------
+-- Table `Part`
+-- -----------------------------------------------------
+DROP TABLE IF EXISTS `Part` ;
+
+SHOW WARNINGS;
+CREATE  TABLE IF NOT EXISTS `Part` (
+  `idPart` INT NOT NULL ,
+  `PName` VARCHAR(45) NULL ,
+  `PGroup` INT NULL ,
+  PRIMARY KEY (`idPart`) ,
+  INDEX `fk_Part_1` (`PGroup` ASC) ,
+  CONSTRAINT `fk_Part_1`
+    FOREIGN KEY (`PGroup` )
+    REFERENCES `PartGroup` (`idPartGroup` )
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION)
+ENGINE = InnoDB;
+
+SHOW WARNINGS;
+
+-- -----------------------------------------------------
+-- Table `Item`
+-- -----------------------------------------------------
+DROP TABLE IF EXISTS `Item` ;
+
+SHOW WARNINGS;
+CREATE  TABLE IF NOT EXISTS `Item` (
+  `idItem` INT NOT NULL ,
+  `idPart` INT NULL COMMENT 'Part id' ,
+  `idModel` INT NULL COMMENT 'Model id' ,
+  `Stockno` VARCHAR(45) NULL ,
+  `Position` VARCHAR(45) NULL ,
+  `Quality` VARCHAR(45) NULL ,
+  `ModelYears` VARCHAR(45) NULL ,
+  `NewCode` VARCHAR(45) NULL ,
+  `Manufacturer` VARCHAR(45) NULL ,
+  `ManufacturerNo` VARCHAR(45) NULL ,
+  `OriginalNo` VARCHAR(45) NULL ,
+  `Gearbox` VARCHAR(45) NULL ,
+  `GearboxNo` VARCHAR(45) NULL ,
+  `Engine` VARCHAR(45) NULL ,
+  `EngineCode` VARCHAR(45) NULL ,
+  `CompanyInformation` VARCHAR(100) NULL ,
+  `DirectLink` VARCHAR(45) NULL ,
+  PRIMARY KEY (`idItem`) ,
+  INDEX `fk_Item_1` (`idPart` ASC) ,
+  INDEX `fk_Item_2` (`idModel` ASC) ,
+  CONSTRAINT `fk_Item_1`
+    FOREIGN KEY (`idPart` )
+    REFERENCES `Part` (`idPart` )
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION,
+  CONSTRAINT `fk_Item_2`
+    FOREIGN KEY (`idModel` )
+    REFERENCES `Model` (`idModel` )
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION)
+ENGINE = InnoDB;
+
+SHOW WARNINGS;
+
+
+SET SQL_MODE=@OLD_SQL_MODE;
+SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS;
+SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;
