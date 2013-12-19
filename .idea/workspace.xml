@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cbbf5fce-9135-46fd-b12b-c0e0702caf56" name="Default" comment="n">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DBWorks.py" afterPath="$PROJECT_DIR$/DBWorks.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Parser.iws" />
@@ -64,7 +64,7 @@
       <file leaf-file-name="DBWorks.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/DBWorks.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="152" column="54" selection-start="5701" selection-end="5701" vertical-scroll-proportion="0.54051054" vertical-offset="359" max-vertical-offset="1440">
+            <state line="151" column="0" selection-start="5646" selection-end="5646" vertical-scroll-proportion="0.3207547" vertical-offset="539" max-vertical-offset="1440">
               <folding>
                 <element signature="e#52#282#0" expanded="false" />
                 <element signature="e#315#604#0" expanded="false" />
@@ -195,7 +195,7 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="options.lastSelected" value="settings.bitbucket" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="options.searchVisible" value="true" />
   </component>
@@ -575,7 +575,11 @@
       <created>1387489581846</created>
       <updated>1387489581846</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="n">
+      <created>1387489614197</created>
+      <updated>1387489614197</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -736,7 +740,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DBWorks.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="152" column="54" selection-start="5701" selection-end="5701" vertical-scroll-proportion="0.54051054" vertical-offset="359" max-vertical-offset="1440">
+        <state line="151" column="0" selection-start="5646" selection-end="5646" vertical-scroll-proportion="0.3207547" vertical-offset="539" max-vertical-offset="1440">
           <folding>
             <element signature="e#52#282#0" expanded="false" />
             <element signature="e#315#604#0" expanded="false" />
