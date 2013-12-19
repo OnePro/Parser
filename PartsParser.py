@@ -95,10 +95,12 @@ def main():
     )
     bot.run()
 
-    file = codecs.open('/home/freeman/parts.txt', 'w', 'utf-8')
-    for item in parts_list:
-       file.write("{%s}\n" % ";".join(["%s=%s" % (k, v) for k, v in item.items()]))
-    file.close()
+    # file = codecs.open('/home/freeman/parts.txt', 'w', 'utf-8')
+    # for item in parts_list:
+    #    file.write("{%s}\n" % ";".join(["%s=%s" % (k, v) for k, v in item.items()]))
+    # file.close()
+    import DBWorks
+    DBWorks.test_write_grupparts_parts(parts_list)
 
 if __name__ == '__main__':
     logging.basicConfig(level=logging.DEBUG)

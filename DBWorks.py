@@ -178,13 +178,13 @@ def get_new_group_parts_for_DB(list_of_dicts_groupparts_and_parts):
     idGrParts_list_temp = []
     # для начала вытащим из словаря список idGrParts для проверки на присудствие их в базе
     for elem_list in list_of_dicts_groupparts_and_parts:
-        current_idGroupPart = int(elem_list['idGroupPart'])
-        current_nameGroupPart = elem_list['nameGroupPart']
+        current_idPartGroup = int(elem_list['idPartGroup'])
+        current_namePartGroup = elem_list['namePartGroup']
 
-        idGrParts_list_temp.append(current_idGroupPart)
+        idGrParts_list_temp.append(current_idPartGroup)
         # сразу сформируем словарь которым нам пригодиться для записи новых марок(если такие найдутся)
-        # ключ будет idGroupPart, значение список [idGroupPart, nameGroupPart]
-        dict_idGrParts_nameGrParts.update({current_idGroupPart: (current_idGroupPart, current_nameGroupPart) })
+        # ключ будет idGroupPart, значение список [idPartGroup, namePartGroup]
+        dict_idGrParts_nameGrParts.update({current_idPartGroup: (current_idPartGroup, current_namePartGroup) })
 
     # прогоним через множества и тем самым удалим дубли
     idGrParts_list = list(set(idGrParts_list_temp))
