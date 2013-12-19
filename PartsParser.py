@@ -53,6 +53,7 @@ class GroupPartsParse(Spider):
                  part_obj.idPart = get_idPart(elem.node.attrib['href'])
                  # запищем в parts_list. предварительно обработав url и вытащив из него idPartGroup и namePartGroup
                  part_obj.other_url_params = ResultOfSearch.parse_full_URL(task.url)
+                 part_obj.namePartGroup = grab.doc.select('//ul[@class="padSml"]/li')[7].text()
 
                  try:
                   part_dict = part_obj.make_part_dict()
@@ -78,7 +79,7 @@ def update_parts_list(part):
 class Part():
     def make_part_dict(self):
         part_param_dict = {}
-        part_param_dict.update({'namePartGroup':self.namePart})
+        part_param_dict.update({'namePartGroup':self.namePartGroup})
         part_param_dict.update({'idPartGroup':self.other_url_params['idPartGroup']})
         part_param_dict.update({'namePart':self.namePart})
         part_param_dict.update({'idPart':self.idPart })
@@ -95,12 +96,12 @@ def main():
     )
     bot.run()
 
-    # file = codecs.open('/home/freeman/parts.txt', 'w', 'utf-8')
-    # for item in parts_list:
-    #    file.write("{%s}\n" % ";".join(["%s=%s" % (k, v) for k, v in item.items()]))
-    # file.close()
-    import DBWorks
-    DBWorks.test_write_grupparts_parts(parts_list)
+    file = codecs.open('/home/freeman/parts.txt', 'w', 'utf-8')
+    for item in parts_list:
+       file.write("{%s}\n" % ";".join(["%s=%s" % (k, v) for k, v in item.items()]))
+    file.close()
+    #import DBWorks
+    #DBWorks.test_write_grupparts_parts(parts_list)
 
 if __name__ == '__main__':
     logging.basicConfig(level=logging.DEBUG)
