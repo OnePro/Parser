@@ -207,7 +207,7 @@ def get_gr_parts_insert_query(list_gr_parts):
 """
 Parts
 """
-#
+#отбираем только новые id
 def get_new_part_from_DB(list_of_dicts_groupparts_and_parts):
     new_Parts = []
 
@@ -237,6 +237,7 @@ def get_new_part_from_DB(list_of_dicts_groupparts_and_parts):
 
     return new_Parts
 
+#формируем список запросов для MySQL
 def get_parts_insert_query(list_parts):
     list_query = []
     for part_attr in list_parts:
