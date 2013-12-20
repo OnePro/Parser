@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cbbf5fce-9135-46fd-b12b-c0e0702caf56" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Translate.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Parser.iws" />
@@ -14,7 +15,8 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Parser$PartsParser.coverage" NAME="PartsParser Coverage Results" MODIFIED="1387493057004" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Parser$Translate.coverage" NAME="Translate Coverage Results" MODIFIED="1387498168022" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Parser$PartsParser.coverage" NAME="PartsParser Coverage Results" MODIFIED="1387494427656" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Parser$MakersModels.coverage" NAME="MakersModels Coverage Results" MODIFIED="1387224621033" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Parser$DBWorks.coverage" NAME="DBWorks Coverage Results" MODIFIED="1386886205270" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Parser$ResultOfSearch.coverage" NAME="ResultOfSearch Coverage Results" MODIFIED="1386520188894" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -47,6 +49,24 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Translate.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Translate.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="0" selection-start="40" selection-end="40" vertical-scroll-proportion="0.08752026" vertical-offset="0" max-vertical-offset="617">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="http.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar:///usr/local/lib/python2.7/dist-packages/google_api_python_client-1.2-py2.7.egg!/apiclient/http.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="722" column="0" selection-start="22831" selection-end="22831" vertical-scroll-proportion="0.0" vertical-offset="12311" max-vertical-offset="28566">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="MakersModels.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MakersModels.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -56,10 +76,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PartsParser.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="PartsParser.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PartsParser.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="0" selection-start="2642" selection-end="2642" vertical-scroll-proportion="-0.012844036" vertical-offset="1015" max-vertical-offset="2070">
+            <state line="49" column="34" selection-start="2115" selection-end="2115" vertical-scroll-proportion="0.0" vertical-offset="701" max-vertical-offset="2070">
               <folding />
             </state>
           </provider>
@@ -84,48 +104,6 @@
                 <element signature="e#7772#7942#0" expanded="false" />
                 <element signature="e#8050#9332#0" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mydb.Part" pinned="false" current="false" current-in-tab="false">
-        <entry file="dbDummy://dbtable:/13e12a8/67ae0b01-18b6-462c-a377-80d7efbcac66/mydb..Part">
-          <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
-            <state />
-          </provider>
-          <provider editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="252">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mydb.PartGroup" pinned="false" current="false" current-in-tab="false">
-        <entry file="dbDummy://dbtable:/13e12a8/67ae0b01-18b6-462c-a377-80d7efbcac66/mydb..PartGroup">
-          <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
-            <state />
-          </provider>
-          <provider editor-type-id="text-editor">
-            <state line="5" column="20" selection-start="187" selection-end="187" vertical-scroll-proportion="-3.1034484" vertical-offset="0" max-vertical-offset="198">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Data Source" pinned="false" current="false" current-in-tab="false">
-        <entry file="dbDummy://db-console:/13e12a8/67ae0b01-18b6-462c-a377-80d7efbcac66/">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="108">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PyDB.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PyDB.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="18" selection-start="335" selection-end="335" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="792">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -160,6 +138,8 @@
         <option value="dbtable:/13e12a8/67ae0b01-18b6-462c-a377-80d7efbcac66/mydb..PartGroup" />
         <option value="db-console:/13e12a8/67ae0b01-18b6-462c-a377-80d7efbcac66/" />
         <option value="$PROJECT_DIR$/PartsParser.py" />
+        <option value="/usr/local/lib/python2.7/dist-packages/apiclient/base.py" />
+        <option value="$PROJECT_DIR$/Translate.py" />
       </list>
     </option>
   </component>
@@ -199,7 +179,7 @@
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1" splitterProportion="0.5">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -210,7 +190,29 @@
       <autoscrollFromSource />
       <sortByType />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Parser" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Parser" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Parser" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="157" />
@@ -226,6 +228,7 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="1072" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="174" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="171" />
+    <property name="Database.TableEditor.Splitter" value="0.9" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
@@ -235,7 +238,7 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
-    <property name="options.lastSelected" value="settings.bitbucket" />
+    <property name="options.lastSelected" value="com.jetbrains.python.configuration.PythonSdkConfigurable" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="dynamic.classpath" value="false" />
     <property name="options.searchVisible" value="true" />
@@ -248,7 +251,7 @@
       </console-settings>
     </option>
   </component>
-  <component name="RunManager" selected="Python.PartsParser">
+  <component name="RunManager" selected="Python.Translate">
     <configuration default="false" name="ResultOfSearch" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -268,25 +271,6 @@
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PyDebugRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Parser" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
-      <option name="PARAMETERS" value="" />
-      <RunnerSettings RunnerId="PyDebugRunner" />
-      <ConfigurationWrapper RunnerId="PyDebugRunner" />
       <method />
     </configuration>
     <configuration default="false" name="MakersModels" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -345,6 +329,27 @@
       <module name="Parser" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DBWorks.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PyDebugRunner" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PyDebugRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Translate" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Parser" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Translate.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PyDebugRunner" />
       <RunnerSettings RunnerId="PythonRunner" />
@@ -510,18 +515,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.ResultOfSearch" />
-      <item index="1" class="java.lang.String" itemvalue="Python.test" />
-      <item index="2" class="java.lang.String" itemvalue="Python.MakersModels" />
-      <item index="3" class="java.lang.String" itemvalue="Python.PartsParser" />
-      <item index="4" class="java.lang.String" itemvalue="Python.DBWorks" />
+      <item index="1" class="java.lang.String" itemvalue="Python.MakersModels" />
+      <item index="2" class="java.lang.String" itemvalue="Python.PartsParser" />
+      <item index="3" class="java.lang.String" itemvalue="Python.DBWorks" />
+      <item index="4" class="java.lang.String" itemvalue="Python.Translate" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.PartsParser" />
-        <item index="1" class="java.lang.String" itemvalue="Python.MakersModels" />
-        <item index="2" class="java.lang.String" itemvalue="Python.DBWorks" />
-        <item index="3" class="java.lang.String" itemvalue="Python.ResultOfSearch" />
-        <item index="4" class="java.lang.String" itemvalue="Python.test" />
+        <item index="0" class="java.lang.String" itemvalue="Python.Translate" />
+        <item index="1" class="java.lang.String" itemvalue="Python.PartsParser" />
+        <item index="2" class="java.lang.String" itemvalue="Python.MakersModels" />
+        <item index="3" class="java.lang.String" itemvalue="Python.DBWorks" />
+        <item index="4" class="java.lang.String" itemvalue="Python.ResultOfSearch" />
       </list>
     </recent_temporary>
   </component>
@@ -634,12 +639,16 @@
       <created>1387494384831</created>
       <updated>1387494384831</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="n">
+      <created>1387494389276</created>
+      <updated>1387494389276</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1615" height="1026" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25358325" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -648,11 +657,11 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17463352" sideWeight="0.71223813" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1764706" sideWeight="0.70860213" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.36714444" sideWeight="0.4996904" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17590822" sideWeight="0.71223813" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36714444" sideWeight="0.4996904" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28817204" sideWeight="0.5003096" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28776187" sideWeight="0.4996904" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28776187" sideWeight="0.4996904" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32903227" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -695,50 +704,13 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="python-line">
-          <url>file://$PROJECT_DIR$/PartsParser.py</url>
-          <line>49</line>
-          <option name="timeStamp" value="207" />
-        </line-breakpoint>
-      </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="208" />
+      <option name="time" value="212" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1142" column="0" selection-start="47510" selection-end="47510" vertical-scroll-proportion="0.33333334" vertical-offset="19175" max-vertical-offset="26496" />
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python2.7/dist-packages/grab/spider/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="909" column="0" selection-start="33927" selection-end="33927" vertical-scroll-proportion="0.0" vertical-offset="16003" max-vertical-offset="20358" />
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python2.7/dist-packages/grab/selector/selector.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="218" column="0" selection-start="6538" selection-end="6538" vertical-scroll-proportion="0.33277026" vertical-offset="3691" max-vertical-offset="6606" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sql.txt">
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="8" selection-start="340" selection-end="340" vertical-scroll-proportion="-0.06185567" vertical-offset="216" max-vertical-offset="2484" />
-      </provider>
-    </entry>
-    <entry file="file:///usr/share/pyshared/MySQLdb/cursors.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="152" column="0" selection-start="4652" selection-end="4652" vertical-scroll-proportion="0.0" vertical-offset="2490" max-vertical-offset="9126">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/share/pyshared/MySQLdb/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="79" column="0" selection-start="2329" selection-end="2329" vertical-scroll-proportion="0.0" vertical-offset="1176" max-vertical-offset="1836">
@@ -776,37 +748,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DBWorks.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="151" column="0" selection-start="5646" selection-end="5646" vertical-scroll-proportion="0.0" vertical-offset="539" max-vertical-offset="1440">
-          <folding>
-            <element signature="e#52#282#0" expanded="false" />
-            <element signature="e#315#604#0" expanded="false" />
-            <element signature="e#704#997#0" expanded="false" />
-            <element signature="e#1114#1353#0" expanded="false" />
-            <element signature="e#1544#2144#0" expanded="false" />
-            <element signature="e#2247#3636#0" expanded="false" />
-            <element signature="e#3680#3903#0" expanded="false" />
-            <element signature="e#4052#4209#0" expanded="false" />
-            <element signature="e#4401#5556#0" expanded="false" />
-            <element signature="e#5719#6305#0" expanded="false" />
-            <element signature="e#6442#7720#0" expanded="false" />
-            <element signature="e#7772#7942#0" expanded="false" />
-            <element signature="e#8050#9332#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PyDB.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="18" selection-start="335" selection-end="335" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="792">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ResultOfSearch.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="154" column="62" selection-start="6095" selection-end="6095" vertical-scroll-proportion="0.0" vertical-offset="54" max-vertical-offset="3348">
           <folding />
         </state>
       </provider>
@@ -845,9 +789,65 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/DBWorks.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="151" column="0" selection-start="5646" selection-end="5646" vertical-scroll-proportion="0.0" vertical-offset="539" max-vertical-offset="1440">
+          <folding>
+            <element signature="e#52#282#0" expanded="false" />
+            <element signature="e#315#604#0" expanded="false" />
+            <element signature="e#704#997#0" expanded="false" />
+            <element signature="e#1114#1353#0" expanded="false" />
+            <element signature="e#1544#2144#0" expanded="false" />
+            <element signature="e#2247#3636#0" expanded="false" />
+            <element signature="e#3680#3903#0" expanded="false" />
+            <element signature="e#4052#4209#0" expanded="false" />
+            <element signature="e#4401#5556#0" expanded="false" />
+            <element signature="e#5719#6305#0" expanded="false" />
+            <element signature="e#6442#7720#0" expanded="false" />
+            <element signature="e#7772#7942#0" expanded="false" />
+            <element signature="e#8050#9332#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/PartsParser.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="0" selection-start="2642" selection-end="2642" vertical-scroll-proportion="-0.012844036" vertical-offset="1015" max-vertical-offset="2070">
+        <state line="49" column="34" selection-start="2115" selection-end="2115" vertical-scroll-proportion="0.0" vertical-offset="701" max-vertical-offset="2070">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ResultOfSearch.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="154" column="62" selection-start="6095" selection-end="6095" vertical-scroll-proportion="0.0" vertical-offset="54" max-vertical-offset="3348">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/python2.7/urllib.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1287" column="0" selection-start="46445" selection-end="46445" vertical-scroll-proportion="0.0" vertical-offset="22867" max-vertical-offset="28818">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/python2.7/urllib2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="526" column="0" selection-start="17406" selection-end="17406" vertical-scroll-proportion="0.7466411" vertical-offset="8863" max-vertical-offset="26226">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/local/lib/python2.7/dist-packages/google_api_python_client-1.2-py2.7.egg!/apiclient/http.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="722" column="0" selection-start="22831" selection-end="22831" vertical-scroll-proportion="0.0" vertical-offset="12311" max-vertical-offset="28566">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Translate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="40" selection-end="40" vertical-scroll-proportion="0.08752026" vertical-offset="0" max-vertical-offset="617">
           <folding />
         </state>
       </provider>
